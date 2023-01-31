@@ -1,6 +1,6 @@
 import React from "react";
-import { Button, Flex, Text } from "@chakra-ui/react";
-import { AddIcon } from "@chakra-ui/icons";
+import { Flex, Text } from "@chakra-ui/react";
+import AddButton from "./AddButton";
 
 const NavBar: React.FC = () => {
   return (
@@ -8,7 +8,7 @@ const NavBar: React.FC = () => {
       <Text
         width="100%"
         fontSize={24}
-        fontWeight={800}
+        fontWeight={500}
         fontFamily="monospace"
         textColor="whitesmoke"
         m={2}
@@ -16,9 +16,7 @@ const NavBar: React.FC = () => {
       >
         Todo List
       </Text>
-      <Button bg="blue.500">
-        <AddIcon color="whitesmoke" boxSize={5} />
-      </Button>
+      <AddButton />
     </Flex>
   );
 };
