@@ -8,6 +8,7 @@ specifiers:
   '@types/react': ^18.0.26
   '@types/react-dom': ^18.0.9
   '@vitejs/plugin-react': ^3.0.0
+  chakra-color-picker: ^0.0.6
   framer-motion: ^8.5.5
   react: ^18.2.0
   react-dom: ^18.2.0
@@ -20,6 +21,7 @@ dependencies:
   '@chakra-ui/react': 2.4.9_25afuchw6ph7oyxitjqcvuz4ue
   '@emotion/react': 11.10.5_kzbn2opkn2327fwg5yzwzya5o4
   '@emotion/styled': 11.10.5_qvatmowesywn4ye42qoh247szu
+  chakra-color-picker: 0.0.6_dsnfek5tjlrk5os7rbsmvyw3z4
   framer-motion: 8.5.5_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1881,6 +1883,17 @@ packages:
   /caniuse-lite/1.0.30001441:
     resolution: {integrity: sha512-OyxRR4Vof59I3yGWXws6i908EtGbMzVUi3ganaZQHmydk1iwDhRnvaPG2WaR0KcqrDFKrxVZHULT396LEPhXfg==}
     dev: true
+
+  /chakra-color-picker/0.0.6_dsnfek5tjlrk5os7rbsmvyw3z4:
+    resolution: {integrity: sha512-QQ/PWjeOiBICWgbs5Bc30LURaxKM1rsVVZ9h9JdE7W7dkyzmCf+rquaIqSlNsKCSyphMpqL31QTQjKS/Ap38vQ==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      '@chakra-ui/react': '>=1.6.5'
+      react: '>=16'
+    dependencies:
+      '@chakra-ui/react': 2.4.9_25afuchw6ph7oyxitjqcvuz4ue
+      react: 18.2.0
+    dev: false
 
   /chalk/2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
